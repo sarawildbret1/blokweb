@@ -77,8 +77,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/ah-homescreen.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/ah-homescreen.png" width="375px" alt="Homepagina van de AH">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/ah-detailpagina.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/ah-detailpagina.png" width="375px" alt="Detailpagina van de AH">
