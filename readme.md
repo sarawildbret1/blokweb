@@ -81,4 +81,4 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="projectweb/ah-detailpagina.png" width="375px" alt="Detailpagina van de AH">
+<img src="images/ah-detailpagina.png" width="375px" alt="Detailpagina van de AH">
