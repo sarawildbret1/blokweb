@@ -67,11 +67,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Intake (week 1)
--uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
 **Je startniveau:** blauw
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:** -kies uit responsive óf surface plane ???-
 
 **Je opdracht:** https://www.ah.nl/allerhande
 
