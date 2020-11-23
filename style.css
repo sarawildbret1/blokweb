@@ -1,0 +1,166 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+#navigatiebalktop {
+  padding: 17px;
+  border-bottom: solid lightgrey 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.zoekbalksection {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  
+}
+
+.zoekbalk {
+  font-size: 15px;
+  padding: 12px 153px 12px 12px;
+  border-radius: 25px;
+  border-style: solid none;
+  background-color: #F0F4F7;
+}
+
+.rechtsuitlijn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ahlogo {
+  margin-left: -100px;
+  width: 35px;
+  height: 35px;
+}
+
+.accounticoon {
+  margin-right: 12px;
+  width: 20px;
+  height: 22px;
+}
+
+.hearticoon {
+  margin-right: 12px;
+  width: 20px;
+  height: 22px;
+}
+
+.basketicoon {
+  margin-top: 2px;
+  width: 22px;
+  height: 20px;
+}
+
+/* Main deel 1 - Banner over bonux box*/
+
+.bonusbox {
+  width: 450px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+.textbonusbox {
+  color: white;
+  position: absolute;
+  top: 9em;
+  text-shadow: 2px 2px 10px black;
+  padding-left: 10px;
+}
+
+/* Main deel 1 - de twee losse bonus producten (spagethie en chocomel) */
+
+
+.bonusjes {
+  display: flex;
+  flex-direction: row;
+}
+
+.spaghetti {
+  top: 12em;
+}
+
+.spaghetti img {
+  position: absolute;
+  top: 15em;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-bottom: 65px;
+  box-shadow: 5px 5px 20px grey;
+
+}
+
+.euro {
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 9em;
+  top: 20.2em;
+}
+
+.pasta {
+  position: absolute;
+  top: 28.5em;
+  left: 2.5em;
+  width: 150px;
+  font-size: 16px;
+}
+
+.spaghetti h4 {
+  position: absolute;
+  top: 25em;
+  color: white;
+  background-color: orange;
+  padding: 6px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.pastaplus {
+  background-color: orange;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 7.6em;
+  top: 18.4em;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 50%;
+  color: white;
+}
+
+.chocomel {
+  margin-left: 250px;
+  top: 12em;
+}
+
+.chocomel img {
+  position: absolute;
+  top: 15em;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-bottom: 65px;
+  box-shadow: 5px 5px 20px grey;
+}
+
+.evenvoornu {
+  position: absolute;
+  top:50em;
+}
+
+  
