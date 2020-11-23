@@ -61,7 +61,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Website tot nu toe
 Bekijk mijn index.html (het is wel ontworpen voor mobiel)
 
-s
 ## Code pen oefeningen (week 2)
 
 Typografie: https://codepen.io/sarawildbret1/pen/LYZgggr
