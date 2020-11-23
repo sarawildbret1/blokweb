@@ -58,6 +58,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -na afloop snel uitkomsten vastleggen-
 
+## Website tot nu toe
+<a src="index.html"> index.html </a>
+
+
+## Code pen oefeningen (week 2)
+
+Typografie: https://codepen.io/sarawildbret1/pen/LYZgggr
+Positioneren: https://codepen.io/sarawildbret1/pen/GRqzemw
 
 
 ## Breakdownschets (week 1)
