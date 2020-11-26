@@ -53,6 +53,12 @@ Stijn:
 1: Hoe maak je een oneindige loop van foto's horizontaal?
 2: Hoe maak je foto's na 5 seconde veranderen inclusief tekst?
 
+Sara:
+1: Wanneer gebruik ik te veel classes?
+2: Is het aantal wat ik heb te veel?
+
+Zain:
+1: Gebruik ik te veel div's?
 
 ### Verslag van meeting
 
