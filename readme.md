@@ -41,10 +41,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -dit ging goed & dit was lastig-
 
 **Screenshot(s):**
-
-<img src="screenshot1.png" width="375px" alt="screenshot 1">
-<img src="screenshot2.png" width="375px" alt="screenshot 2">
 <img src="screenshot3.png" width="375px" alt="screenshot 3">
+<img src="screenshot2.png" width="375px" alt="screenshot 2">
+<img src="screenshot1.png" width="375px" alt="screenshot 1">
+
+
 
 ### Agenda voor meeting
 
