@@ -38,7 +38,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Dat het heel erg stressen was omdat sommige dingen gewoon niet wilde lukken, dus het kosten veel tijd. 
 
 **Screenshot(s):**
 <img src="screenshot3.png" width="375px" alt="screenshot 3">
@@ -49,13 +49,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+Stijn: 
+1: Hoe maak je een oneindige loop van foto's horizontaal?
+2: Hoe maak je foto's na 5 seconde veranderen inclusief tekst?
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
 
