@@ -60,6 +60,11 @@ Sara:
 Zain:
 1: Gebruik ik te veel div's?
 
+Tim:
+1: Hoe maak je een dropdown met transition die over andere tekst heen valt?
+2: Hoe maak je een dropdown navigatie, die navigeert naar content op dezelfde pagina?
+3: Hoe kan ik zien welke icon (<i> element) er word gebruikt? 
+
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
