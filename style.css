@@ -8,9 +8,13 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+
 /* header */
 
+
+/* navigatie balk */
 #navigatiebalktop {
+  width: 100%;
   padding: 17px;
   border-bottom: solid lightgrey 1px;
   display: flex;
@@ -18,74 +22,122 @@ body {
   justify-content: space-between;
   list-style-type: none;
 }
-.zoekbalksection {
-  display: flex;
-  justify-content: flex-start;
-  padding: 10px;
-  
-}
 
-.zoekbalk {
-  font-size: 15px;
-  padding: 12px 153px 12px 12px;
-  border-radius: 25px;
-  border-style: solid none;
-  background-color: #F0F4F7;
-}
-
-.rechtsuitlijn {
-  display: flex;
-  justify-content: flex-end;
+.hamburgermenu {
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .ahlogo {
-  margin-left: -100px;
   width: 35px;
   height: 35px;
 }
 
-.accounticoon {
-  margin-right: 12px;
-  width: 20px;
-  height: 22px;
-}
-
-.hearticoon {
-  margin-right: 12px;
-  width: 20px;
-  height: 22px;
-}
-
 .basketicoon {
+  margin-right: 10px;
   margin-top: 2px;
-  width: 22px;
-  height: 20px;
+  width: 29px;
+  height: 34px;
 }
+
+
+
+
+/* zoekbalk in portrait modus*/
+.zoekbalksection {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  position: relative;
+  margin-left: 10px;
+}
+
+.zoekbalk {
+  position: relative;
+  font-size: 15px;
+  width: 100%;
+  padding: 15px 110px 15px 15px;
+  border-radius: 25px;
+  border-style: none;
+  background-color: #F0F4F7;
+}
+
+/* zoekbalk in landscape modus*/
+@media (min-width: 812px) {
+  .zoekbalksection {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    position: relative;
+    margin-left: 10px;
+  }
+  
+  .zoekbalk {
+    position: relative;
+    font-size: 15px;
+    width: 100%;
+    padding: 15px 550px 15px 15px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #F0F4F7;
+  }
+  
+}
+
 
 /* Main deel 1 - Banner over bonux box*/
+
+.bonusafbeeldingg {
+  position: relative;
+  background-image: url(../images/banner3.png);
+  width: 100%;
+  height: 220px;
+}
 
 .bonusbox {
   width: 450px;
   height: 150px;
   position: relative;
-  overflow: hidden;
+  
 }
 
 .textbonusbox {
   color: white;
   position: absolute;
-  top: 9em;
+  top: 0.5em;
   text-shadow: 2px 2px 10px black;
-  padding-left: 10px;
+  padding-left: 20px;
+  font-size: 15px;
+  width: 340px;
+}
+
+@media (min-width: 812px) {
+  .textbonusbox {
+    color: white;
+    position: absolute;
+    top: 1.5em;
+    text-shadow: 2px 2px 10px black;
+    padding-left: 20px;
+    font-size: 15px;
+    width: 550px;
+  }
 }
 
 /* Main deel 1 - de twee losse bonus producten (spagethie en chocomel) */
 
-
 .bonusjes {
   display: flex;
   flex-direction: row;
+  
 }
+
+.bonusjes ul {
+  display: flex;
+  list-style: none;
+  overflow-x: scroll;
+}
+
+/* spaghetti */
 
 .spaghetti {
   top: 12em;
@@ -144,6 +196,8 @@ body {
   color: white;
 }
 
+/* chocomel */
+
 .chocomel {
   margin-left: 250px;
   top: 12em;
@@ -154,13 +208,671 @@ body {
   top: 15em;
   margin-left: 30px;
   margin-right: 30px;
-  padding-bottom: 65px;
+  padding-bottom: 42px;
   box-shadow: 5px 5px 20px grey;
+  
 }
 
-.evenvoornu {
+.chocomel h4 {
   position: absolute;
-  top:50em;
+  top: 25em;
+  color: white;
+  background-color: orange;
+  padding: 6px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  width: 120px;
 }
+
+.chocomel p {
+  position: absolute;
+  top: 29em;
+  left: 18em;
+  width: 150px;
+  font-size: 16px;
+}
+
+.eurochoco {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 700;
+  padding-left: 155px;
+  margin-top: -55px;
+}
+
+.chocoplus {
+  background-color: orange;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 18.3em;
+  top: 18.4em;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 50%;
+  color: white;
+}
+
+.appelstroop {
+  position: absolute;
+  top: 24em;
+  left: 34em;
+  background-color: white;
+  padding: 20px 10px 60px 20px;
+  
+}
+
+.appelstroop img {
+  position: absolute;
+  top: -8em;
+  left: 4em;
+  width: 9em;
+  background-color: white;
 
   
+}
+
+.appelstroop h4 {
+  background-color: orange;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+/* Main deel 2 - stukjes over alert zijn in de supermarkt en koopzegels in de albertheijn app */
+
+.boodschapjes {
+  top: 34em;
+  left: 0;
+  position: absolute;
+}
+
+.boodschapjes ul {
+  margin-left: -23px;
+}
+
+/* alert */
+.alert {
+
+   display: flex;
+   flex-direction: column;
+   border-radius: 5px;
+   background-color: white;
+   box-shadow: 10px 10px 30px darkgrey;
+   margin-right: 30px;
+}
+
+.alert img {
+  border-radius: 5px 0 0 5px;
+  position: absolute;
+}
+
+.alert p {
+  margin-left: 150px;
+  font-weight: 700;
+  padding: 12px 0 12px 12px;
+}
+
+.alert a {
+  padding-bottom: 25px;
+  margin-left: 160px;
+  width: 120px;
+}
+
+@media (min-width: 812px) {
+  .alert img {
+    width: 125px;
+  }
+  
+  .alert {
+    margin-bottom: 27px;
+  }
+
+
+  .alert p {
+    margin-left: 142px;
+    margin-right: 10px;
+  }
+
+  .alert a {
+    padding-bottom: 7px;
+    margin-left: 155px;
+    width: 120px;
+  }
+
+  .boodschapjes ul {
+    margin-left: 14px;
+    display: flex;
+  }
+
+
+}
+
+/* koopzegel */
+
+.koopzegels {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 10px 10px 30px darkgrey;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.koopzegels img {
+  position: absolute;
+  width: 150px;
+}
+
+.koopzegels p {
+  padding: 20px 0 0 160px;
+  font-weight: 700;
+}
+
+.koopzegels a {
+  padding: 20px 0 54px 160px;
+}
+
+@media (min-width: 812px) {
+
+  .koopzegels {
+    margin-top: 0;
+    margin-bottom: 28px;
+  }
+  
+  .koopzegels img {
+    position: absolute;
+    width: 130px;
+
+  }
+
+  .koopzegels p {
+    padding-left: 150px;
+    
+  }
+
+  .koopzegels a {
+    padding-bottom: 0;
+    padding-left: 150px;
+  }
+
+}
+
+/* andere aanbiedingen volgende sectie (coolbest en brood) */
+
+.aanbiedingen2 {
+  position: absolute;
+  top: 55em;
+}
+
+
+/* coolbest (recyclebaar fruit) */
+
+.coolbest {
+  background-color:  #F2F4EA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  margin-left: -16px;
+  margin-top: 20px;
+}
+
+.coolbest img {
+  width: 140px;
+  padding: 20px;
+}
+
+.coolbest a {
+  padding: 0 0 0 15px;
+}
+
+/* Brood (aanbiedingen bij de hand) */
+
+.brood {
+  background-color: #EDDCEF;
+  display: flex;
+  margin-right: 30px;
+  margin-left: -16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.brood img {
+  left: 10em;
+  top: 9em;
+  position: absolute;
+}
+
+.brood a {
+  padding: 41px 50px 22px 20px;
+  width: 220px;
+}
+
+@media (min-width: 812px) {
+  .aanbiedingen2 ul {
+    margin-left: 60px;
+    position: absolute;
+    top: -10em;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .coolbest {
+    padding-right: 60px;
+    margin-bottom: 20px;
+  }
+
+  .brood {
+    padding-right: 80px;
+    
+  }
+
+  .brood img {
+    position: absolute;
+    top: -0.7em;
+    left: 26em;
+    width: 200px;
+  }
+
+  .brood a {
+    padding: 41px 70px 45px 20px;
+    width: 220px;
+  }
+}
+
+
+/* Nu in de bonus */
+
+
+
+.nuinbonus {
+  display: flex;
+  position: absolute;
+  top: 75em;
+  margin-left: 30px;
+  background-color: white;
+}
+
+.nuinbonus li {
+  margin-right: 10px;
+}
+
+.nuinbonus h3 {
+  position: absolute;
+  color: orange;
+  font-size: 30px;
+}
+
+.nuinbonus h4 {
+  position: absolute;
+  background-color: orange;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: -20px;
+  text-transform: uppercase;
+}
+
+.biertekst {
+  position: absolute;
+  background-color: rgba(225, 255, 255, 0.4);
+  left: 8em;
+}
+
+.nuinbonus div {
+  background-color: orange;
+  position: absolute;
+  padding: 5px 10px 5px 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  left: 7.5em;
+  top: 8.2em;
+}
+
+.nuinbonus p {
+  padding-top: 13px;
+}
+
+.bierkrat {
+  margin-right: 35px;
+}
+
+.naardebonus {
+  position: absolute;
+  top: 13em;
+  color: orange;
+  font-size: 20px;
+  font-weight: 500;
+  border: solid orange;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+@media (min-width: 812px){
+  .nuinbonus {
+    display: flex;
+    position: absolute;
+    top: 60em;
+    margin-left: 30px;
+    background-color: white;
+  }
+
+  .nuinbonus h3{
+    margin-top: -40px;
+  }
+
+  .naardebonus {
+    right: -2em;
+  }
+
+}
+ 
+/* Wat eten we vandaag */
+
+.etenvandaag {
+  position: absolute;
+  top: 97em;
+  padding-left: 10px;
+  
+}
+
+.etenvandaag h3 {
+  font-size: 30px;
+}
+  
+.burgerr {
+  width: 330px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.vuuricoon {
+  width: 15px;
+}
+
+.planticoon {
+  width: 15px;
+}
+
+.infoimg {
+  display: flex;
+  padding: 10px 0 10px 15px;
+}
+
+.nuinbonus p {
+  padding-left: 10px;
+}
+
+.etenvandaaglink {
+  position: absolute;
+  top: 23em;
+  color: rgb(131, 209, 235);
+  font-size: 15px;
+  font-weight: 500;
+  border: solid rgb(131, 209, 235);
+  padding: 12px;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+@media (min-width: 812px) {
+  .etenvandaag {
+    top: 85em;
+  }
+  .etenvandaag h3 {
+    position: absolute;
+    right: -6.5em;
+    top: -1em;
+  }
+
+  .etenvandaaglink {
+    right: -14em;
+  }
+}
+
+
+
+
+/* Footer */
+
+
+.logofooter {
+  position: absolute;
+  top: 125em;
+  left: 10em;
+  width: 40px;
+}
+
+.icoonlist {
+  position: absolute;
+  top: 130em;
+  display: flex;
+  list-style: none;
+  left: 3.4em;
+}
+
+.icoonlist li {
+  padding-right: 8px;
+}
+
+.footerlinkjes {
+  position: absolute;
+  top: 135em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 67px;
+  padding-bottom: 30px;
+}
+
+.footerlinkjes li {
+  padding-bottom: 15px;
+}
+
+.nix18 {
+  position: absolute;
+  top: 187em;
+  display: flex;
+  font-size: small;
+  padding-left: 50px;
+}
+
+.nix18 img {
+  width: 75px;
+  margin-top: -24px;
+  margin-right: 7px;
+}
+
+.footerimgs {
+  position: absolute;
+  top: 158em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 74px;
+}
+
+.ideal {
+  width: 40px;
+}
+
+.pin {
+  width: 55px;
+  margin-left: 10px;
+}
+
+.bedrijfwaar {
+  width: 70px;
+  padding-top: 13px;
+}
+
+.huiswaar {
+  width: 55px;
+  padding-top: 5px;
+}
+
+@media (min-width: 812px){
+  .footer {
+    right: -8em;
+  }
+}
+
+
+
+
+
+/*  PRODUCT PAGINA */
+
+.verderterug {
+  background-color: #F9F7F5;
+  color: #4BABE1;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  align-items: center;
+}
+
+.verderterug img {
+  width: 8px;
+  height: 14px;
+}
+
+.alignlinks img {
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+.verderterug img {
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.alignlinks {
+  display: flex;
+  align-items: flex-end;
+  
+}
+
+.alignright {
+  display: flex;
+}
+
+/*  bananen */
+
+.bananenproduct {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bananenproduct img {
+    width: 250px;
+}
+
+.bananenproduct h2 {
+  margin-top: -30px;
+  padding-left: 15px;
+  align-self: flex-start;
+}
+
+.bananenproduct p {
+  align-self: flex-end;
+  margin-top: -2em;
+  padding: 12px 20px 12px 0;
+}
+
+.bananenproduct strong {
+  font-size: 30px;
+}
+
+/* voeg toe */
+
+.infobananen {
+  margin-top: 2em;
+}
+
+.voegtoe {
+  background-color: #4BABE1;
+  padding: 12px 130px 12px 130px;
+  border-radius: 5px;
+  margin-left: 17px;
+}
+
+/* informatie bananen */
+
+.infobananen p:first-of-type {
+  margin-top: 2em;
+  margin-bottom: 0.3em;
+  margin-left: 10px;
+}
+
+.infobananen p:last-of-type {
+  margin-bottom: 1em;
+  margin-left: 10px;
+}
+
+/* omschrijving */
+
+.omschrijving {
+  margin-top: 2em;
+  margin-left: 10px;
+  margin-bottom: 1.5em;
+}
+
+.omschrijving h2 {
+  margin-bottom: 0.5em;
+}
+
+/* extra informatie */
+
+.extrainfo {
+  margin-left: 10px;
+  margin-bottom: 1em;
+}
+
+.extrainfo h6 {
+  font-size: 17px;
+}
+
+.extrainfo p {
+  font-weight: 400;
+}
+
+
+/* inhoud en gewicht */
+
+.inhoud {
+  margin-left: 10px;
+  margin-bottom: 1em;
+}
+
+.inhoud h6{
+  font-size: 17px;
+}
+
+.inhoud p:first-of-type {
+  margin-bottom: 10px;
+}
+
+/* inhoud en gewicht */
+
+.kenmerken h6 {
+  font-size: 17px;
+}
