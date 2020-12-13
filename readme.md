@@ -30,7 +30,23 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Stijn: 
+-Hoe kan ik het bovenste gedeelte van de home pagina goed maken? Dus het om de zo veel seconden verandere van de foto en tekst.
+-Hoe kan ik de header bovenop de main content zetten, nu word de img een beetje afgsneden, ik maak nu ook gebruik van een z-index om hem er op te leggen misschien dat dat het probleem verooraakt.
+
+Sara:
+-hoe maak ik van mijn zoekbutton een vergrootglas
+
+Zain:
+- Hoe voeg je items toe aan je header als die groter wordt
+
+Tim:
+-Hoe krijg je de achtergrond van een tekst een stuk langer en hoe kan ik daar een foto overheen zetten?
+-Ik heb het idee dat de preview van brackets soms gek doet, doordat hij soms dingen niet aanpast of dingen vanuit zichzelf.
+
+Julius:
+- 
+
 
 
 
