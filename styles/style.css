@@ -11,22 +11,26 @@ body {
 }
 
 
-a:visited {
-  text-decoration: none;
-}
-a:active {
-  text-decoration: none;
-}
-
 a:link {
   text-decoration: none;
 }
 
+a:visited {
+  text-decoration: none;
+}
 
+a:focus {
+  text-decoration: none;
+}
 
 a:hover {
   text-decoration: none;
 }
+
+a:active {
+  text-decoration: none;
+}
+
 
 
 
@@ -59,7 +63,7 @@ a:hover {
 
 .hamburgerbutton {
   background-color: transparent;
-  box-shadow: white ;
+  box-shadow: white;
   border: transparent;
 }
 
@@ -310,7 +314,7 @@ a:hover {
   display: flex;
 }
 
-.appelsamen2{
+.appelsamen2 {
   display: flex;
 }
 
@@ -482,7 +486,7 @@ a:hover {
 }
 
 @media (min-width: 505px) {
-  .aanbiedingen2 ul{
+  .aanbiedingen2 ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -498,31 +502,31 @@ a:hover {
 
 /* Nu in de bonus */
 
-.bonusscoren {
+.naardebonus {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  overflow-x: scroll;
+  margin-right: 35px;
+  margin-left: 35px;
 }
 
 .textnuinbonus {
+  display: flex;
+  justify-content: center;
   font-size: 30px;
   color: orange;
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-.nuinbonus ul {
-  overflow-x: scroll;
-}
 
 .nuinbonus {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   margin-bottom: 40px;
-  margin-left: 25px;
+  list-style-type: none;
+  overflow-x: scroll;
 }
+
 
 .nuinbonus p {
   padding-left: 10px;
@@ -533,6 +537,7 @@ a:hover {
 .biernaast1 {
   display: flex;
 }
+
 
 .bierkrat h4 {
   background-color: orange;
@@ -612,6 +617,7 @@ a:hover {
 
 .icetea {
   margin-left: 30px;
+  margin-right: 20px;
 }
 
 .icetea img {
@@ -664,12 +670,12 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-top: 40px;
-  overflow-x: scroll;
+  margin-right: 35px;
+  margin-left: 35px;
 }
 
 .etenvandaag h3 {
+  margin-top: 30px;
   font-size: 30px;
 
 }
@@ -724,6 +730,10 @@ a:hover {
 
 .receptjes {
   display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  list-style-type: none;
+  overflow-x: scroll;
 }
 
 .etenvandaaglink {
@@ -789,6 +799,7 @@ footer {
 
 .nix18 img {
   width: 75px;
+  height: 75px;
   margin-top: -24px;
   margin-right: 7px;
 }
@@ -1106,7 +1117,7 @@ table {
 }
 
 .tortillasamen2 div {
-  background-color: #33bdeb ;
+  background-color: #33bdeb;
   padding: 5px 15px 5px 15px;
   border-radius: 50%;
   font-size: 30px;
@@ -1154,7 +1165,7 @@ table {
 }
 
 .eierensamen2 div {
-  background-color: #33bdeb ;
+  background-color: #33bdeb;
   padding: 5px 15px 5px 15px;
   border-radius: 50%;
   font-size: 30px;
@@ -1166,7 +1177,7 @@ table {
 
 .campina {
   display: flex;
-  
+
   margin-top: 10px;
 }
 
@@ -1200,7 +1211,7 @@ table {
 }
 
 .campinasamen2 div {
-  background-color: #33bdeb ;
+  background-color: #33bdeb;
   padding: 5px 15px 5px 15px;
   border-radius: 50%;
   font-size: 30px;
