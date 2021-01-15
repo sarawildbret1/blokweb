@@ -11,7 +11,11 @@ Ik vond dit vak super lastig en wilde zelfs een paar keer mijn laptop uit het ra
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+<img src="1.png" width="375px" alt="screenshot 1">
+<img src="2.png" width="375px" alt="screenshot 2">
+<img src="3.png" width="375px" alt="screenshot 3">
+<img src="4.png" width="375px" alt="screenshot 4">
+<img src="5.png" width="375px" alt="screenshot 5">
 
 
 
