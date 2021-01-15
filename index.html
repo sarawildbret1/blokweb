@@ -8,30 +8,44 @@
 
 	<title>Albert Heijn</title>
 	<link href="styles/style.css" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
 
 </head>
 
 <body>
 	<header>
 		<!--dit is de navigatiebalk-->
-				<nav >
-					<ul id="navigatiebalktop">
-						<li><a href="productpagina/productpagina.html"><img class="hamburgermenu" src="images/menumenu.png" alt="Hamburger menu" ></a></li>
-						<li><img class="ahlogo" src="images/ahlogo.dms" alt="Albert Heijn logo"></li>
-						<div class="rechtsuitlijn">
-						<li><a href="productpagina/productpagina.html"><img class="basketicoon" src="images/winkelwagun.png" alt="winkelwagen"></a></li>
-						</div>
-					</ul>
-					</nav>
-		
-			
+		<nav class="toverhamburger">
+			<ul id="navigatiebalktop">
+				<li><button class="hamburgerbutton"><img class="hamburgermenu" src="images/menumenu.png"
+							alt="Hamburger menu"></button></li>
+				<li><img class="ahlogo" src="images/ahlogo.dms" alt="Albert Heijn logo"></li>
+					<li class="rechtsuitlijn"><a href="productpagina/productpagina.html"><img class="basketicoon" src="images/winkelwagun.png"
+								alt="winkelwagen"></a></li>
+			</ul>
+		</nav>
+
+
+		<ul class="displaynone">
+			<li><a href="./productpagina/productpagina.html"><img src="images/productenicoon.png" alt="icoon wijn fles">Producten</a></li>
+			<li><a href="./productpagina/productpagina.html"><img src="images/tagicoon.png" alt="icoon van een tag">Bonus</a></li>
+			<li><a href="./productpagina/productpagina.html"><img src="images/receptenicoon.png" alt="icoon van roomservice">Recepten</a></li>
+			<li><a href="./productpagina/productpagina.html"><img src="images/storeicoon.png" alt="icoon van een icoon">Winkels</a></li>
+			<li><a href="./productpagina/productpagina.html"><img src="images/actiesicoon.png" alt="icoon van cadeau">Acties</a></li>
+			<li><a href="./productpagina/productpagina.html"><img src="images/callicoon.png" alt="icoon van bellen">Klantenservice</a></li>
+			<li><a href="./productpagina/productpagina.html"><img src="images/truckicoon.png" alt="icoon van een vrachtwagen">Online bestellen</a></li>
+		</ul>
+     
+
+
 
 		<!--dit is een zoekbalk-->
 		<section class="zoekbalksection">
 			<form action="index.html">
-			  <input class="zoekbalk" type="search" name="search" id="search" placeholder="Waar ben je naar op zoek?" >
+				<input class="zoekbalk" type="search" name="search" id="search" placeholder="Waar ben je naar op zoek?">
 			</form>
 		</section>
 	</header>
@@ -43,140 +57,190 @@
 		<section class="bonusafbeeldingg">
 			<!--<img class="bonusbox" src="images/bonusah.png" alt="bonus banner">-->
 			<div class="textbonusbox">
-			<h2>Mijn Bonus Box: de beste aanbiedingen kies je zelf.</h2>
-			<a href="productpagina/productpagina.html"> Kies je extra Bonusaanbiedingen  </a>
+				<h2>Mijn Bonus Box: de beste aanbiedingen kies je zelf.</h2>
+				<a class="link1" href="productpagina/productpagina.html"> Kies je extra Bonusaanbiedingen </a>
 			</div>
-        </section>
-		<!--Dit zijn twee losse bonus aanbiedingen over spagetti en chocomel-->	
-			<section class="bonusjes">
+		</section>
+		<!--Dit zijn twee losse bonus aanbiedingen over spagetti en chocomel-->
+		<section class="bonusjes">
 			<ul>
-			<li class="spaghetti">
-				<img src="images/versepasta.jpg" alt="verse pasta">
-				<h4>1 + 1 gratis</h4>
-				<p class="euro">1,99</p>
-				<p class="pasta">AH Verse tagliatelle all'uovo</p>
-				<div class="pastaplus"><a href="productpagina/productpagina.html">+</a></div>
-			</li>
-			<li class="chocomel">
-				<img src="images/chocomel.png" alt="Chocomel">
-				<h4>Voor 1 euro</h4>
-				<p>Chocomel vol</p>
-				<p class="eurochoco">2,49</p>
-				<div class="chocoplus"><a href="productpagina/productpagina.html">+</a></div>
-			</li>
-			<li class="appelstroop">
-				<div class="white"><img src="images/appelstroop.jpg" alt="appel stroop"></div>
-				<h4>1 + 1 gratis</h4>
-				<p>3,99</p>
-				<p>Appelstroop</p>
-				<div class="appelstroopplus"><a href="productpagina/productpagina.html">+</a></div>
-			</li>
-		    </ul>
+				<li class="spaghetti">
+					<img src="images/versepasta.jpg" alt="verse pasta">
+					<div class="samenspag1">
+						<h4>1 + 1 gratis</h4>
+						<p class="euro">1,99</p>
+					</div>
+					<div class="samenspag2">
+						<p class="pasta">AH Verse tagliatelle all'uovo</p>
+						<div class="pastaplus"><a href="productpagina/productpagina.html">+</a></div>
+					</div>
+				</li>
+				<li class="chocomel">
+					<img src="images/chocomel.png" alt="Chocomel">
+					<div class="samenchoco1">
+						<h4>Voor 1 euro</h4>
+						<p>2,49</p>
+					</div>
+					<div class="samenchoco2">
+						<p class="eurochoco">Chocomel vol</p>
+						<div class="chocoplus"><a href="productpagina/productpagina.html">+</a></div>
+					</div>
+				</li>
+				<li class="appelstroop">
+					<div class="white"><img src="images/appelstroop.jpg" alt="appel stroop"></div>
+					<div class="appelsamen1">
+						<h4>1 + 1 gratis</h4>
+						<p>3,99</p>
+					</div>
+					<div class="appelsamen2">
+						<p>Appelstroop</p>
+						<div class="appelstroopplus"><a href="productpagina/productpagina.html">+</a></div>
+					</div>
+				</li>
+			</ul>
 		</section>
 
-		<!--Dit is een stukje met twee meldingen over de winkel-->	
-		
-		<section class="boodschapjes"> 
+		<!--Dit is een stukje met twee meldingen over de winkel-->
+
+		<section class="boodschapjes">
 			<ul>
 				<li class="alert">
 					<img src="images/alertah.jpg" alt="boodschappen doen in coronatijd">
-					<p>Samen blijven we alert.</p>
-					<a href="productpagina/productpagina.html"> Boodschappen doen in coronatijd </a>
+					<div class="alertnaast">
+						<p>Samen blijven we alert.</p>
+						<a href="productpagina/productpagina.html"> Boodschappen doen in coronatijd </a>
+					</div>
 				</li>
-				<li class="koopzegels"> 
-					<div></div>
-					<img src="images/koopzegel3.png" alt="Koopzegels in de albert heijn app" >
-					<p>Koopzegels in de albert heijn app.</p>
-					<a href="productpagina/productpagina.html"> Spaar ze nu </a>
+				<li class="koopzegels">
+					<img src="images/koopzegel3.png" alt="Koopzegels in de albert heijn app">
+					<div class="koopnaast">
+						<p>Koopzegels in de albert heijn app.</p>
+						<a href="productpagina/productpagina.html"> Spaar ze nu </a>
+					</div>
 				</li>
 			</ul>
 		</section>
 
 
-		
-		<!--Dit zijn twee lossen bonus aanbiedingen over coolbest en brood-->	
+
+		<!--Dit zijn twee lossen bonus aanbiedingen over coolbest en brood-->
 		<section class="aanbiedingen2">
 			<ul>
 				<li class="coolbest">
-					<a href="productpagina/productpagina.html">100% fruit, 100% recyclebaar  </a>
+					<a href="productpagina/productpagina.html">100% fruit, 100% recyclebaar </a>
 					<img src="images/coolbest.png" alt="Coolbest sap">
 				</li>
 				<li class="brood">
-					<a href="productpagina/productpagina.html"> Altijd je aanbiedingen bij de hand  </a>
+					<a href="productpagina/productpagina.html"> Altijd je aanbiedingen bij de hand </a>
 					<img src="images/broodactie.png" alt="Altijd je aanbiedingen bij de hand">
 				</li>
 			</ul>
 		</section>
-		
-		
-		<!--Nog meer bonus aanbiedingen maar ook weer een los stukje-->	
-		<div class="nuinbonus">
-			<h3>Nu in de Bonus</h3>
-			<section class="bierkrat">
-				<img src="images/bierkrat.png" alt="Heineken krat in de bonus">
-				<h4>Voor 9.99</h4>
-				<p>Heineken Premium pilsener krat</p>
-				<div><a href="productpagina/productpagina.html">+</a></div>
-			</section>
-			<section>
-				<img src="images/buglesah.png" alt="bugles ah">
-				<h4>2 voor 2.50</h4>
-				<p>Lay's Bugles nachos cheese</p>
-				<div><a href="productpagina/productpagina.html">+</a></div>
-			</section>
+
+
+		<!--Nog meer bonus aanbiedingen maar ook weer een los stukje-->
+		<section class="bonusscoren">
+			<h3 class="textnuinbonus">Nu in de Bonus</h3>
+			<div class="nuinbonus">
+				<article class="bierkrat">
+					<img src="images/bierkrat.png" alt="Heineken krat in de bonus">
+					<div class="biernaast1">
+						<h4>Voor 9.99</h4>
+						<div class="bierplus"><a href="productpagina/productpagina.html">+</a></div>
+					</div>
+					<p>Heineken Premium pilsener krat</p>
+				</article>
+				<article class="bugles">
+					<img src="images/buglesah.png" alt="bugles ah">
+					<div class="buglesnaast">
+						<h4>2 voor 2.50</h4>
+						<div class="buglesplus"><a href="productpagina/productpagina.html">+</a></div>
+					</div>
+					<p>Lay's Bugles nachos cheese</p>
+				</article>
+				<article class="icetea">
+					<img src="images/iceteagreen.JPG" alt="pak ice tea green">
+					<div class="iceteanaast">
+						<h4>nu voor 1.99</h4>
+						<div class="iceteaplus"><a href="productpagina/productpagina.html">+</a></div>
+					</div>
+					<p>Ice tea green</p>
+				</article>
+			</div>
 			<a class="naardebonus" href="productpagina/productpagina.html"> Naar alle bonusaanbiedingen</a>
-		</div>
-	
-	
-		<!--Hier worden een paar recepten aangeboden-->	
+		</section>
+
+
+
+		<!--Hier worden een paar recepten aangeboden-->
 		<div class="etenvandaag">
 			<h3>Wat eten we vandaag?</h3>
-				<img class="burgerr" src="images/hamburgerwinter.jpg" alt="hamburger met wintergroente">
-				<div class="infoimg">
-				<p><img class="vuuricoon" src="images/fire.png" alt="vuur icoon"> 675 kcal</p>
-				<p><img class="planticoon" src="images/plant.png" alt="plant icoon"> Vegetarisch</p>
-			    </div>
-				<p>Vega burger met geroosterde wintergroente</p>
-				<a href="productpagina/productpagina.html" class="etenvandaaglink"> Naar meer 'Wat eten we vandaag?' recepten</a>
+			<section class="receptjes">
+				<article class="burgerflex">
+					<img class="burgerr" src="images/hamburgerwinter.jpg" alt="hamburger met wintergroente">
+					<div class="infoimg">
+						<p><img class="vuuricoon" src="images/fire.png" alt="vuur icoon"> 675 kcal</p>
+						<p><img class="planticoon" src="images/plant.png" alt="plant icoon"> Vegetarisch</p>
+					</div>
+					<p class="burgerp">Vega burger met geroosterde wintergroente</p>
+				</article>
+				<article class="zalmflex">
+					<img class="zalmoven" src="images/traybakezalm.jpg" alt="zalm gerecht uit de oven">
+					<div class="infozalm">
+						<p><img class="vuuricoon" src="images/fire.png" alt="vuur icoon"> 510 kcal</p>
+						<p><img class="planticoon" src="images/plant.png" alt="plant icoon"> pescetarisch</p>
+					</div>
+					<p class="zalmp">Tray­ba­ke met zalm, aard­ap­pel en ro­de ui</p>
+				</article>
+			</section>
+			<a href="productpagina/productpagina.html" class="etenvandaaglink"> Naar meer 'Wat eten we vandaag?'
+				recepten</a>
 		</div>
-	</main>
-<!--Hier begint de footer-->   
-<footer>
-	<img class="logofooter" src="images/ahlogo.dms" alt="AH logo">
 
-	<!--Dit zijn linkjes naar social media-->   
-	<ul class="icoonlist">
-		<li><a href="productpagina/productpagina.html"><img src="images/facebook.png" alt="Facebook"></a></li>
-		<li><a href="productpagina/productpagina.html"><img src="images/twitter.png" alt="Twitter"></a></li>
-		<li><a href="productpagina/productpagina.html"><img src="images/insta.png" alt="Insta"></a></li>
-		<li><a href="productpagina/productpagina.html"><img src="images/youtube.png" alt="Youtube"></a></li>
-		<li><a href="productpagina/productpagina.html"><img src="images/pinterest.png" alt="Pinterest"></a></li>
-	</ul>
-	<!--Dit zijn linkjes naar wat algemene info over de Albert Heijn--> 
-	<ul class="footerlinkjes">
-		<li><a href="productpagina/productpagina.html">Zakelijke algemene voorwaarden</a></li>
-		<li><a href="productpagina/productpagina.html">Algemene voorwaarden</a></li>
-		<li><a href="productpagina/productpagina.html">Bonusvoorwaarden</a></li>
-		<li><a href="productpagina/productpagina.html">Privacybeleid</a></li>
-		<li><a href="productpagina/productpagina.html">Cookiebeleid</a></li>
-		<li><a href="productpagina/productpagina.html">Over AH</a></li>
-		<li><a href="productpagina/productpagina.html">Kwetsbaarheid melden</a></li>
-	</ul>
-	  <!--Hier worden nog wat regeltjes laten zien over de supermarkt en alcohol verkoop-->   
-	  <div class="nix18">
-		<img src="images/nix18.png" alt="nix18 logo">
-		<aside><p>25 jaar? Laat je legitmatie zien!</p> 
-		<p>18 jaar verkopen wij geen alcohol.</p> </aside>
-	  </div>
-	  <section class="footerimgs">
-		<img src="images/idealicoon.png" alt="ideal logo" class="ideal">
-		<img src="images/pinlogo.png" alt="pin logo" class="pin">
-		<img src="images/bedrijfwaarborgding.png" alt="logo" class="bedrijfwaar">
-		<img src="images/thuiswaardeding.png" alt="logo" class="huiswaar">
-	</section>
-</footer>
-	
+
+
+
+	</main>
+	<!--Hier begint de footer-->
+	<footer>
+		<img class="logofooter" src="images/ahlogo.dms" alt="AH logo">
+
+		<!--Dit zijn linkjes naar social media-->
+		<ul class="icoonlist">
+			<li><a href="productpagina/productpagina.html"><img src="images/facebook.png" alt="Facebook"></a></li>
+			<li><a href="productpagina/productpagina.html"><img src="images/twitter.png" alt="Twitter"></a></li>
+			<li><a href="productpagina/productpagina.html"><img src="images/insta.png" alt="Insta"></a></li>
+			<li><a href="productpagina/productpagina.html"><img src="images/youtube.png" alt="Youtube"></a></li>
+			<li><a href="productpagina/productpagina.html"><img src="images/pinterest.png" alt="Pinterest"></a></li>
+		</ul>
+		<!--Dit zijn linkjes naar wat algemene info over de Albert Heijn-->
+		<ul class="footerlinkjes">
+			<li><a href="productpagina/productpagina.html">Zakelijke algemene voorwaarden</a></li>
+			<li><a href="productpagina/productpagina.html">Algemene voorwaarden</a></li>
+			<li><a href="productpagina/productpagina.html">Bonusvoorwaarden</a></li>
+			<li><a href="productpagina/productpagina.html">Privacybeleid</a></li>
+			<li><a href="productpagina/productpagina.html">Cookiebeleid</a></li>
+			<li><a href="productpagina/productpagina.html">Over AH</a></li>
+			<li><a href="productpagina/productpagina.html">Kwetsbaarheid melden</a></li>
+		</ul>
+		<!--Hier worden nog wat regeltjes laten zien over de supermarkt en alcohol verkoop-->
+		<div class="nix18">
+			<img src="images/nix18.png" alt="nix18 logo">
+			<aside>
+				<p>25 jaar? Laat je legitmatie zien!</p>
+				<p>18 jaar verkopen wij geen alcohol.</p>
+			</aside>
+		</div>
+		<section class="footerimgs">
+			<img src="images/idealicoon.png" alt="ideal logo" class="ideal">
+			<img src="images/pinlogo.png" alt="pin logo" class="pin">
+			<img src="images/bedrijfwaarborgding.png" alt="logo" class="bedrijfwaar">
+			<img src="images/thuiswaardeding.png" alt="logo" class="huiswaar">
+		</section>
+	</footer>
+
 	<script src="scripts/script.js"></script>
+
 </body>
 
 </html>
