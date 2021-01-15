@@ -16,6 +16,10 @@ Ik vond dit vak super lastig en wilde zelfs een paar keer mijn laptop uit het ra
 <img src="3.png" width="375px" alt="screenshot 3">
 <img src="4.png" width="375px" alt="screenshot 4">
 <img src="5.png" width="375px" alt="screenshot 5">
+<img src="6.png" width="375px" alt="screenshot 6">
+<img src="7.png" width="375px" alt="screenshot 7">
+<img src="8.png" width="375px" alt="screenshot 8">
+<img src="9.png" width="375px" alt="screenshot 9">
 
 
 
