@@ -7,7 +7,7 @@
 
 ## Eindgesprek (week 7/8)
 
-Ik vond dit vak super lastig en wilde zelfs een paar keer mijn laptop uit het raam gooien om dat het maar niet wilde lukken. Uiteindlijk ben ik heel trots op wat ik heb gemaakt en ik hoop dat het allemaal goed is. 
+Ik vond dit vak super lastig en wilde zelfs een paar keer mijn laptop uit het raam gooien om dat het maar niet wilde lukken. Uiteindlijk ben ik heel trots op wat ik heb gemaakt en ik hoop dat het allemaal goed is. Mijn eerste plan was om voor een mobile versie te gaan, maar ik ben toch maar voor responsive gegaan zodat ik maar een interactie hoefde te maken.
 
 **Screenshot(s):**
 
