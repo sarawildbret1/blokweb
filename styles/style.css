@@ -1,5 +1,1227 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+
+a:hover {
+  text-decoration: none;
+}
+
+
+
+/* header */
+
+
+/* navigatie balk */
+#navigatiebalktop {
+  width: 100%;
+  padding: 17px;
+  border-bottom: solid lightgrey 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+
+.ahlogo {
+  width: 35px;
+  height: 35px;
+}
+
+.basketicoon {
+  margin-right: 10px;
+  margin-top: 2px;
+  width: 29px;
+  height: 34px;
+}
+
+.hamburgerbutton {
+  background-color: transparent;
+  box-shadow: white ;
+  border: transparent;
+}
+
+.hamburgermenu {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.displaynone {
+  display: none;
+}
+
+.tovermenu {
+  display: block;
+  background-color: white;
+  width: 100%;
+  z-index: 100;
+  list-style-type: none;
+
+}
+
+.tovermenu img {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.tovermenu li {
+  margin-top: 30px;
+}
+
+.tovermenu li:last-of-type {
+  margin-bottom: 30px;
+}
+
+/* zoekbalk in portrait modus*/
+.zoekbalksection {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  position: relative;
+  margin-left: 10px;
+}
+
+.zoekbalk {
+  position: relative;
+  font-size: 15px;
+  width: 100%;
+  padding: 15px 110px 15px 15px;
+  border-radius: 25px;
+  border-style: none;
+  background-color: #F0F4F7;
+}
+
+
+
+/* zoekbalk in landscape modus*/
+@media (min-width: 812px) {
+  .zoekbalk {
+    padding: 15px 550px 15px 15px;
+  }
+}
+
+
+/* Main deel 1 - bonus afbeelding met tekst*/
+
+.bonusafbeeldingg {
+  position: relative;
+  background-image: url(../images/banner3.jpg);
+  width: 100%;
+  height: 220px;
+  z-index: -1;
+}
+
+.bonusbox {
+  width: 450px;
+  height: 150px;
+  position: relative;
+}
+
+
+.textbonusbox {
+  color: white;
+  text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  padding: 20px 0 20px 20px;
+  font-size: 15px;
+}
+
+@media (min-width: 700px) {
+  .textbonusbox {
+    font-size: 20px;
+  }
+
+}
+
+/* Main deel 1 - de twee losse bonus producten (spagethie en chocomel) */
+
+.bonusjes {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -60px;
+}
+
+.bonusjes ul {
+  display: flex;
+  list-style: none;
+  overflow-y: scroll;
+  z-index: 40;
+}
+
+/* spaghetti */
+
+.spaghetti {
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  background-color: white;
+
+}
+
+.spaghetti img {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.samenspag1 {
+  display: flex;
+}
+
+.euro {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: -30px;
+  margin-left: 80px;
+}
+
+.spaghetti h4 {
+  position: relative;
+  z-index: 2;
+  color: white;
+  background-color: orange;
+  padding: 6px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  width: 110px;
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
+.samenspag2 {
+  display: flex;
+}
+
+.pasta {
+  margin: 40px 0 10px 10px;
+  width: 190px;
+  font-size: 16px;
+}
+
+.pastaplus {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 50%;
+  color: white;
+  margin: 40px 0 10px 10px;
+}
+
+/* chocomel */
+
+.chocomel {
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  margin-left: 90px;
+  background-color: white;
+  margin-right: 90px;
+}
+
+.chocomel img {
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 200px;
+}
+
+.samenchoco1 {
+  display: flex;
+}
+
+.samenchoco2 {
+  display: flex;
+}
+
+.chocomel h4 {
+  position: relative;
+  z-index: 2;
+  color: white;
+  background-color: orange;
+  padding: 6px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  width: 115px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.samenchoco1 p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: -30px;
+  margin-left: 50px;
+}
+
+.eurochoco {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.chocoplus {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 50%;
+  color: white;
+  margin-top: 23px;
+  margin-left: 70px;
+}
+
+.appelstroop {
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  margin-left: 5px;
+  background-color: white;
+  margin-right: 90px;
+  padding-left: 70px;
+  padding-right: 60px;
+  padding-top: 40px;
+}
+
+.appelsamen1 {
+  display: flex;
+}
+
+.appelsamen2{
+  display: flex;
+}
+
+
+.appelstroop img {
+  width: 110px;
+  background-color: white;
+}
+
+.appelstroop h4 {
+  background-color: orange;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin-left: -50px;
+  margin-top: 25px;
+  margin-right: 50px;
+}
+
+.appelsamen1 p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 27px;
+  margin-right: -40px;
+}
+
+.appelsamen2 p {
+  margin-left: -48px;
+  margin-top: 40px;
+}
+
+.appelstroopplus {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 50%;
+  color: white;
+  margin-left: 62px;
+  margin-top: 40px;
+}
+
+/* Main deel 2 - stukjes over alert zijn in de supermarkt en koopzegels in de albertheijn app */
+
+.boodschapjes ul {
+  margin-left: -23px;
+  margin-bottom: 30px;
+
+}
+
+@media (min-width: 450px) {
+
+  .boodschapjes ul {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+/* alert */
+.alert {
+  display: flex;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.alertnaast {
+  display: flex;
+  flex-direction: column;
+}
+
+.alert img {
+  width: 130px;
+  border-radius: 5px 0 0 5px;
+}
+
+.alert p {
+  font-weight: 700;
+  padding: 20px 0 20px 10px;
+}
+
+.alert a {
+  padding-left: 10px;
+}
+
+/* koopzegel */
+
+.koopzegels {
+  display: flex;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.koopnaast {
+  display: flex;
+  flex-direction: column;
+}
+
+.koopzegels img {
+  width: 130px;
+  background-color: rgb(35, 175, 221);
+  padding-left: 6px;
+}
+
+.koopzegels p {
+  font-weight: 700;
+  padding: 20px 0 20px 10px;
+}
+
+.koopzegels a {
+  padding-left: 10px;
+}
+
+/* andere aanbiedingen volgende sectie (coolbest en brood) */
+
+/* coolbest (recyclebaar fruit) */
+
+
+.coolbest {
+  background-color: #F2F4EA;
+  display: flex;
+  margin-right: 30px;
+  margin-left: -16px;
+  margin-top: 20px;
+}
+
+.coolbest img {
+  width: 140px;
+  padding: 20px;
+  margin-left: 40px;
+}
+
+.coolbest a {
+  margin-left: 40px;
+  margin-top: 55px;
+  margin-right: 20px;
+}
+
+/* Brood (aanbiedingen bij de hand) */
+
+.brood {
+  background-color: #EDDCEF;
+  display: flex;
+  margin-right: 30px;
+  margin-left: -16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.brood img {
+  width: 130px;
+  margin-left: 65px;
+}
+
+.brood a {
+  margin-top: 55px;
+  margin-left: 30px;
+}
+
+@media (min-width: 505px) {
+  .aanbiedingen2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .brood {
+    margin-top: 33px;
+  }
+
+}
+
+
+/* Nu in de bonus */
+
+.bonusscoren {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.textnuinbonus {
+  font-size: 30px;
+  color: orange;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.nuinbonus ul {
+  overflow-x: scroll;
+}
+
+.nuinbonus {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-left: 25px;
+}
+
+.nuinbonus p {
+  padding-left: 10px;
+}
+
+/* Bierkratten */
+
+.biernaast1 {
+  display: flex;
+}
+
+.bierkrat h4 {
+  background-color: orange;
+  color: white;
+  text-transform: uppercase;
+  padding: 8px;
+  width: 100px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: -40px;
+  margin-bottom: 45px;
+}
+
+.bierplus {
+  background-color: orange;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 50%;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.bierkrat p {
+  width: 150px;
+  margin-top: -30px;
+  margin-left: 10px;
+}
+
+/* Bugles */
+
+.buglesnaast {
+  display: flex;
+}
+
+.bugles {
+  margin-left: 30px;
+}
+
+.bugles img {
+  margin-left: 10px;
+}
+
+.bugles h4 {
+  background-color: orange;
+  color: white;
+  text-transform: uppercase;
+  padding: 8px;
+  width: 115px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: -40px;
+  margin-bottom: 45px;
+}
+
+.buglesplus {
+  background-color: orange;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 50%;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.bugles p {
+  width: 150px;
+  margin-top: -30px;
+  margin-left: 10px;
+}
+
+/* Ice tea green */
+
+.iceteanaast {
+  display: flex;
+}
+
+.icetea {
+  margin-left: 30px;
+}
+
+.icetea img {
+  width: 180px;
+  margin-left: 10px;
+}
+
+.icetea h4 {
+  background-color: orange;
+  color: white;
+  text-transform: uppercase;
+  padding: 8px;
+  width: 130px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: -40px;
+  margin-bottom: 45px;
+}
+
+.iceteaplus {
+  background-color: orange;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 50%;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.icetea p {
+  width: 150px;
+  margin-top: -30px;
+  margin-left: 10px;
+}
+
+
+
+/* Link naar de bonus */
+
+.naardebonus {
+  color: orange;
+  border: orange solid;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+/* Wat eten we vandaag */
+
+.etenvandaag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  overflow-x: scroll;
+}
+
+.etenvandaag h3 {
+  font-size: 30px;
+
+}
+
+.zalmflex {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.burgerr {
+  width: 330px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.vuuricoon {
+  width: 15px;
+}
+
+.planticoon {
+  width: 15px;
+  padding-top: 3px;
+}
+
+.infoimg {
+  display: flex;
+  padding: 10px 0 10px 15px;
+}
+
+.burgerp {
+  margin-bottom: 20px;
+  margin-left: 12px;
+}
+
+.zalmoven {
+  width: 330px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.infozalm {
+  display: flex;
+  padding: 10px 0 10px 15px;
+}
+
+.zalmp {
+  margin-bottom: 20px;
+  margin-left: 12px;
+}
+
+.receptjes {
+  display: flex;
+}
+
+.etenvandaaglink {
+  top: 23em;
+  color: rgb(131, 209, 235);
+  font-size: 15px;
+  font-weight: 500;
+  border: solid rgb(131, 209, 235);
+  padding: 12px;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  margin-top: 30px;
+}
+
+.logofooter {
+  width: 40px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.icoonlist {
+  display: flex;
+  list-style: none;
+  margin-bottom: 50px;
+  margin-left: -40px;
+}
+
+.icoonlist li {
+  padding-right: 8px;
+}
+
+
+.footerlinkjes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  margin-left: -40px;
+  padding-bottom: 30px;
+}
+
+.footerlinkjes li {
+  padding-bottom: 15px;
+}
+
+.nix18 {
+  display: flex;
+  font-size: small;
+
+}
+
+.nix18 img {
+  width: 75px;
+  margin-top: -24px;
+  margin-right: 7px;
+}
+
+.footerimgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.ideal {
+  width: 40px;
+}
+
+.pin {
+  width: 55px;
+  margin-left: 10px;
+}
+
+.bedrijfwaar {
+  width: 70px;
+  padding-top: 13px;
+}
+
+.huiswaar {
+  width: 55px;
+  padding-top: 5px;
+}
+
+@media (min-width: 812px) {
+  .footer {
+    right: -8em;
+  }
+}
+
+
+
+
+
+/*  PRODUCT PAGINA */
+
+
+.verderterug {
+  background-color: #F9F7F5;
+  color: #4BABE1;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  align-items: center;
+}
+
+.verderterug img {
+  width: 8px;
+  height: 14px;
+}
+
+.alignlinks img {
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+.verderterug img {
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.alignlinks {
+  display: flex;
+  align-items: flex-end;
+
+}
+
+.alignright {
+  display: flex;
+}
+
+/*  bananen */
+
+.bananenproduct {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bananenproduct img {
+  width: 250px;
+}
+
+.bananenproduct h2 {
+  margin-top: -30px;
+  padding-left: 15px;
+  align-self: flex-start;
+}
+
+.bananenproduct p {
+  align-self: flex-end;
+  margin-top: -2em;
+  padding: 12px 20px 12px 0;
+}
+
+.bananenproduct strong {
+  font-size: 30px;
+}
+
+/* voeg toe */
+
+.infobananen {
+  margin-top: 2em;
+}
+
+.voegtoe {
+  background-color: #33bdeb;
+  padding: 12px 130px 12px 130px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* informatie bananen */
+
+.infobananen p:first-of-type {
+  margin-top: 2em;
+  margin-bottom: 0.3em;
+  margin-left: 10px;
+}
+
+.infobananen p:last-of-type {
+  margin-bottom: 1em;
+  margin-left: 10px;
+}
+
+/* omschrijving */
+
+.omschrijving {
+  margin-top: 2em;
+  margin-left: 10px;
+  margin-bottom: 1.5em;
+}
+
+.omschrijving h2 {
+  margin-bottom: 0.5em;
+}
+
+/* extra informatie */
+
+.extrainfo {
+  margin-left: 10px;
+  margin-bottom: 1em;
+}
+
+.extrainfo h6 {
+  font-size: 17px;
+}
+
+.extrainfo p {
+  font-weight: 400;
+}
+
+
+/* inhoud en gewicht */
+
+.inhoud {
+  margin-left: 10px;
+  margin-bottom: 1em;
+}
+
+.inhoud h6 {
+  font-size: 17px;
+}
+
+.inhoud p:first-of-type {
+  margin-bottom: 10px;
+}
+
+/* Kenmerken */
+
+.kenmerken {
+  margin-bottom: 40px;
+}
+
+.kenmerken h6 {
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.kenmerken img {
+  width: 40px;
+}
+
+.kenmerken li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-left: -20px;
+}
+
+.kenmerken p {
+  margin-left: 10px;
+}
+
+/* Ingredienten */
+
+.ingrediënten {
+  margin-left: 10px;
+}
+
+.ingrediënten h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.ingrediënten p {
+  margin-bottom: 40px;
+}
+
+/* Voedingswaarde */
+
+.voedingswaarden {
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+.voedingswaarden h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+/* Tabel */
+
+.titell th {
+  border-bottom: 2px solid #e0e0e0;
+  font-weight: 500;
+}
+
+th {
+  padding: 13px;
+  font-weight: 350;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+table {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.referentie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+/* Andere kochten ook */
+
+.anderekopen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.anderekopen h4 {
+  font-size: 25px;
+}
+
+/* Tortilla */
+
+.tortilla {
+  display: flex;
+  margin-left: -40px;
+  margin-top: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tortillasamen1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+.tortillasamen2 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.tortilla img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.tortillasamen2 p:first-of-type {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.tortillasamen2 p:last-of-type {
+  font-size: 13px;
+  color: grey;
+  margin-left: 10px;
+  padding-top: 11px;
+}
+
+.tortillasamen2 div {
+  background-color: #33bdeb ;
+  padding: 5px 15px 5px 15px;
+  border-radius: 50%;
+  font-size: 30px;
+  margin-left: 112px;
+  margin-top: -17px;
+}
+
+
+/* Eieren */
+.eierenm {
+  display: flex;
+  margin-left: -20px;
+  margin-top: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.eierensamen1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+.eierensamen2 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.eierenm img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.eierensamen2 p:first-of-type {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.eierensamen2 p:last-of-type {
+  font-size: 13px;
+  color: grey;
+  margin-left: 10px;
+  padding-top: 11px;
+}
+
+.eierensamen2 div {
+  background-color: #33bdeb ;
+  padding: 5px 15px 5px 15px;
+  border-radius: 50%;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: -17px;
+}
+
+/* Melk */
+
+.campina {
+  display: flex;
+  
+  margin-top: 10px;
+}
+
+.campinasamen1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+.campinasamen2 {
+  display: flex;
+  margin-top: 50px;
+}
+
+.campina img {
+  width: 100px;
+  margin-left: -40px;
+}
+
+.campinasamen2 p:first-of-type {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.campinasamen2 p:last-of-type {
+  font-size: 13px;
+  color: grey;
+  margin-left: 10px;
+  padding-top: 11px;
+}
+
+.campinasamen2 div {
+  background-color: #33bdeb ;
+  padding: 5px 15px 5px 15px;
+  border-radius: 50%;
+  font-size: 30px;
+  margin-left: 130px;
+  margin-top: -17px;
+}
+
+
+/* Serie nummer */
+
+.serienumber {
+  padding: 10px 20px 10px 10px;
+  color: grey;
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+
+.tekstmetinfo {
+  color: grey;
+  padding: 20px;
+  font-weight: 350;
+  line-height: 25px;
+}
