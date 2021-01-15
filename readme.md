@@ -7,7 +7,7 @@
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik vond dit vak super lastig en wilde zelfs een paar keer mijn laptop uit het raam gooien om dat het maar niet wilde lukken. Uiteindlijk ben ik heel trots op wat ik heb gemaakt en ik hoop dat het allemaal goed is. 
 
 **Screenshot(s):**
 
