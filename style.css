@@ -509,6 +509,15 @@ a:active {
   margin-left: 35px;
 }
 
+@media (min-width: 1000px) {
+  .naardebonus {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
 .textnuinbonus {
   display: flex;
   justify-content: center;
@@ -674,6 +683,8 @@ a:active {
   margin-left: 35px;
 }
 
+
+
 .etenvandaag h3 {
   margin-top: 30px;
   font-size: 30px;
@@ -745,6 +756,15 @@ a:active {
   padding: 12px;
   border-radius: 10px;
   margin-left: 15px;
+}
+
+@media (min-width: 1000px) {
+  .etenvandaaglink {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+
 }
 
 
@@ -843,6 +863,13 @@ footer {
 /*  PRODUCT PAGINA */
 
 
+.centeren { 
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  max-width: 420px;
+}  
+
 .verderterug {
   background-color: #F9F7F5;
   color: #4BABE1;
@@ -883,6 +910,7 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 
 .bananenproduct img {
@@ -892,12 +920,12 @@ footer {
 .bananenproduct h2 {
   margin-top: -30px;
   padding-left: 15px;
-  align-self: flex-start;
+  margin-right: 250px;
 }
 
 .bananenproduct p {
-  align-self: flex-end;
-  margin-top: -2em;
+  margin-left: 250px;
+  margin-top: -1em;
   padding: 12px 20px 12px 0;
 }
 
@@ -909,6 +937,9 @@ footer {
 
 .infobananen {
   margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .voegtoe {
@@ -919,6 +950,7 @@ footer {
   margin-right: 20px;
   display: flex;
   justify-content: center;
+  
 }
 
 /* informatie bananen */
@@ -927,11 +959,13 @@ footer {
   margin-top: 2em;
   margin-bottom: 0.3em;
   margin-left: 10px;
+  
 }
 
 .infobananen p:last-of-type {
   margin-bottom: 1em;
   margin-left: 10px;
+  
 }
 
 /* omschrijving */
@@ -1023,6 +1057,10 @@ footer {
 
 .voedingswaarden {
   margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
   margin-bottom: 40px;
 }
 
@@ -1101,6 +1139,7 @@ table {
 
 .tortilla img {
   width: 100px;
+  width: 110px;
   margin-bottom: 10px;
 }
 
@@ -1149,6 +1188,7 @@ table {
 
 .eierenm img {
   width: 100px;
+  width: 100px;
   margin-bottom: 10px;
 }
 
@@ -1195,6 +1235,7 @@ table {
 
 .campina img {
   width: 100px;
+  width: 100px;
   margin-left: -40px;
 }
 
@@ -1226,8 +1267,11 @@ table {
   padding: 10px 20px 10px 10px;
   color: grey;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   margin-top: 20px;
+  margin-right: -250px;
+  
+  
 }
 
 .tekstmetinfo {
@@ -1235,4 +1279,8 @@ table {
   padding: 20px;
   font-weight: 350;
   line-height: 25px;
+  max-width: 420px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
 }
